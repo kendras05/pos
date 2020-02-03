@@ -28,12 +28,14 @@
 		<button class="button" value ="" name ="7"/>7</button>
 		<button class="button" value ="" name ="8"/>8</button>
 		<button class="button" value ="" name ="9"/>9</button>
-		<button class="button" value ="" name ="+"/>+</button>
+		<button class="button" value ="" name ="add"/>Add Amount</button>
+</fieldset>
 <br>
-		<form action="/submit.php" method="POST">
-		<input type="submit" value="Submit">
-
-
-</fieldset>		
+<br>
+<form action="/submit.php" method="get" name="form1">
+<textarea readonly rows="4" cols="50">Ledger</textarea>
+<button type="submit" value ="submit" name ="total"/>Total</button>
+</form>
+	
 </body>
 <html>
